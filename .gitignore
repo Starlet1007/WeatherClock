@@ -1,0 +1,33 @@
+# Build outputs
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.exe
+*.gch
+
+# Keil MDK build artifacts
+mdk/Listings/
+mdk/Objects/
+mdk/DebugConfig/
+*.uvguix.*
+*.scvd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Synology NAS metadata
+@eaDir/
+
+# Test/temp
+parse/
+
+# OS files
+Thumbs.db
+.DS_Store

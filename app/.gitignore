@@ -1,0 +1,22 @@
+# Build outputs
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dependencies
+build/
+dist/
